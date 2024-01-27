@@ -2,5 +2,7 @@
     <string name="app_name">My To Do app</string>
     <string name="welcome_text">Welcome, Visitor</string>
     <string name="categories">Categories</string>
+    <string name="todo_tasks">My Tasks</string>
+
 
 </resources>
