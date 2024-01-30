@@ -3,6 +3,15 @@
     <string name="welcome_text">Welcome, Visitor</string>
     <string name="categories">Categories</string>
     <string name="todo_tasks">My Tasks</string>
+    <string name="addatask">Type your task</string>
+    <string name="rdbussines">Bussines</string>
+    <string name="rdother">Other</string>
+    <string name="rdgroceries">Groceries</string>
+    <string name="rdpersonal">Personal</string>
+    <string name="addtask">Add Task</string>
+
+
+
 
 
 </resources>

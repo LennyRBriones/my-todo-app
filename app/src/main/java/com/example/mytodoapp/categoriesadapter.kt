@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class categoriesadapter (private val categories:List<taskcategory>):
+class categoriesadapter (private val categories:List<taskcategory>, private val onItemSelected:(Int) -> Unit):
     RecyclerView.Adapter<categoriesviewholder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): categoriesviewholder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_task_category, parent, false)
@@ -15,7 +15,7 @@ class categoriesadapter (private val categories:List<taskcategory>):
     override fun getItemCount() = categories.size //setting the size of the value
 
     override fun onBindViewHolder(holder: categoriesviewholder, position: Int) {
-        holder.render(categories[position])
+        holder.render(categories[position], onItemSelected)
     }
 
 }

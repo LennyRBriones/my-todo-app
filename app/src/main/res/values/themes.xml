@@ -27,5 +27,21 @@
         <item name="android:layout_marginHorizontal">32dp</item>
     </style>
 
+    <style name="dialogbuttonother">
+    <item name="buttonTint">@color/other_category</item>
+    </style>
+
+    <style name="dialogbuttbussines">
+        <item name="buttonTint">@color/business_category</item>
+    </style>
+
+    <style name="dialogbuttgroceries">
+        <item name="buttonTint">@color/groceries_category</item>
+    </style>
+
+    <style name="dialogbuttpersonal">
+        <item name="buttonTint">@color/personal_category</item>
+    </style>
+
     <style name="Theme.MyToDoApp" parent="Base.Theme.MyToDoApp" />
 </resources>

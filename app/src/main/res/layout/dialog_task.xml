@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ettask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/addatask"
+        android:textColor="@color/white"
+        android:textColorHint="@color/subtitle_text" />
+
+    <RadioGroup
+        android:id="@+id/rgcategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/rbbussines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialogbuttbussines"
+            android:checked="true"
+            android:text="@string/rdbussines"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbpersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialogbuttpersonal"
+            android:text="@string/rdpersonal"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbgroceries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialogbuttgroceries"
+            android:text="@string/rdgroceries"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialogbuttonother"
+            android:text="@string/rdother"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnaddtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent"
+        android:text="@string/addtask"/>
+
+</LinearLayout>
